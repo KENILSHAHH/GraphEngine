@@ -1,1 +1,9 @@
-/target
+/target/
+**/*.rs.bk
+.vscode/
+Cargo.lock
+graph.dot
+graph.png
+*~
+.DS_Store
+Thumbs.db
