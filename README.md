@@ -108,19 +108,7 @@ builder.fill_nodes(inputs);
 assert!(builder.check_constraints());
 ```
 
----
 
-## 🔍 Debug Output
-
-The system includes print statements to log:
-- Node creation
-- Input initialization
-- Node evaluation steps
-- Constraint failures
-
-Use these logs to trace the graph execution in terminal output.
-
----
 
 ## 📁 Project Structure
 

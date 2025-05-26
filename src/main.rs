@@ -288,12 +288,12 @@ impl Builder {
     }
 }
 
-/// Demonstrates building and executing a computation graph for f(x) = x^2 + x + 8
+/// Demonstrates building and executing a computation graph for f(x) = x^2 + x + 5
 fn main() {
     let mut builder = Builder::new();
     let x = builder.init();
     let x_squared = builder.mul(&x, &x);
-    let five = builder.constant(8);
+    let five = builder.constant(5);
     let x_squared_plus_x = builder.add(&x_squared, &x);
     let _y = builder.add(&x_squared_plus_x, &five);
 
