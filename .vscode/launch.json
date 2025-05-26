@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug succintGraph",
+      "type": "lldb",
+      "request": "launch",
+      "program": "/Users/kenil/code/succinct/succintGraph/target/debug/succintGraph",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "stopOnEntry": false,
+      "sourceLanguages": ["rust"]
+    }
+  ]
+}
