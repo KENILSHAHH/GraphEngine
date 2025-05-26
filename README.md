@@ -17,6 +17,11 @@ This project implements a minimal computational graph system for arithmetic expr
 
 ---
 
+## Run the Project 
+```bash
+cargo run
+```
+
 ## 🧰 Data Structures
 
 ### `NodeId(usize)`
