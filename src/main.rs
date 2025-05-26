@@ -6,7 +6,7 @@ This library allows users to construct and evaluate arithmetic computation graph
 - Custom hint-based nodes for extended functionality (e.g. division, square root)
 - Value propagation from input nodes
 - Equality constraint enforcement
-- Graph export in DOT format for visualization
+- Graph export in DOT format for visualization (added for understanding)
 
 The code is optimized for clarity, extensibility, and performance, with test cases validating correctness and edge-case handling.
 */
